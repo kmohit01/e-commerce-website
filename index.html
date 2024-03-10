@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive WebPage Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- ================font links and google fonts==================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="Big_Box">
+        <!-- =========first navbar=================== -->
+        <div class="Pahla_box flexbox rin">
+            <div class="social_media_icon rin">
+                <i class="fa fa-facebook-square" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-twitter" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-instagram" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+                <i class="fa fa-linkedin-square" style="font-size: 1.2em; color: rgb(150, 150, 150)"></i>
+            </div>
+            <p style="color: grey; font-size: 0.8em; " class="writing">
+                FREE SHIPPING THIS WEEK ORDER OVER - $55
+            </p>
+            <div class="select_option rin">
+                <select name="USD" id="usd_selector">
+                    <option value="">USD $</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+                <select name="english" id="language">
+                    <option value="">ENGLISH</option>
+                    <option value="">HINDI</option>
+                    <option value="">SANSKRIT</option>
+                    <option value="">URDU</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <!-- =========second navbar=================== -->
+    <header>
+        <div class="Big_Box">
+            <div class="second_bar flexbox wrap rin">
+                <p style="font-size: 2.5em">E-Commerce</p>
+                <div class="search_box rin flexbox">
+                    <input type="search" placeholder="Enter your product name..." />
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="shopping_icon">
+                    <i class="fa fa-user" style="font-size: 1.5em; color: rgb(150, 150, 150)"></i>
+                    <i class="fa fa-heart" style="font-size: 1.5em; color: rgb(150, 150, 150)"></i>
+                    <i class="fa fa-shopping-bag" style="font-size: 1.5em; color: rgb(150, 150, 150)"></i>
+                </div>
+            </div>
+        </div>
+        <!-- =============third navbar==================== -->
+        <nav class="nav_bar flexbox rin">
+            <ul class="ulwidth rin">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CATEGORIES</a></li>
+                <li><a href="#">MEN'S</a></li>
+                <li><a href="#">WOMEN'S</a></li>
+                <li><a href="#">JEWELRY</a></li>
+                <li><a href="#">PERFUME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">HOT OFFERS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ================== first page + upon text ================== -->
+    <div class="bigwidth rin">
+        <div class="fast_banner">
+            <div class="banner_text">
+                <p class=trend>Trending Item</p>
+                <h1 class="world">WOMEN'S LATEST FASHION SALE</h1>
+                <p style="color: rgb(100, 100, 100); " class="starting">
+                    starting at $ <strong class="strong">20.</strong>00
+                </p>
+                <button>SHOP NOW</button>
+            </div>
+        </div>
+        <!-- =================after first page, downside four block ========================= -->
+        <section class=" flexbox wrap justifys  overflowx image-grid">
+
+            <!-- ==========first block of dress================= -->
+            <div class="one_small_block flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="/icons/dress.svg" alt="Ladies dress" />
+                </div>
+                <div class="top_text flexbox ram">
+                    <div class="seprate flexbox rin">
+                        <p>DRESS & FORK </p>
+                        <p style="color: rgb(150,150,150); font-size:10px;">(53)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- ==========second box of winter coat================= -->
+            <div class="one_small_block rin flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="/icons/coat.svg" alt="Winter Coat" />
+                </div>
+                <div class="top_text ">
+                    <div class="seprate flexbox rin">
+                        <p>WINTER WEAR</p>
+                        <p style="color: rgb(150,150,150); font-size:10px;">(58)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- ==========third block of sun glasses================= -->
+            <div class="one_small_block  flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="/icons/glasses.svg" alt="Sun Glasses" />
+                </div>
+                <div class="top_text flexbo">
+                    <div class="seprate flexbox">
+                        <p>GLASSES & LENS</p>
+                        <p style="color: rgb(150,150,150); font-size:10px;">(68)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+            <!-- ==========fourth block of shorts================= -->
+            <div class="one_small_block rin flexbox">
+                <div class="svg_icon flexbox">
+                    <img src="icons/shorts.svg" alt="shorts" />
+                </div>
+                <div class="top_text flexbo ">
+                    <div class="seprate flexbox">
+                        <p>SHORTS & JEANS</p>
+                        <p style="color: rgb(150,150,150); font-size:10px;">(84)</p>
+                    </div>
+                    <a href="#">Show All</a>
+                </div>
+            </div>
+        </section>
+        <!-- ============before this test we have covered 5 things like fist we have covered first nav and after that second nav an so on and in the last we created four block downside of first page=============== -->
+        <!-- ==================first side bar of page 2nd=========================== -->
+        <div class="main_wrapper rin">
+            <aside class="asider rin ">
+                <div class="long_container rin">
+                    <p style="font-size: 1.5em; margin-left: 7%; margin: 14% 0% ;">CATEGORY</p>
+                    <!-- fist block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/dress.svg" alt="dress">
+                        <div class="text_plus rin flexbox">
+                            <p>Dress</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!-- second block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/shoes.svg" alt="shoes">
+                        <div class="text_plus rin flexbox">
+                            <p>Shoes</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!-- third block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/jewelry.svg" alt="jewelry">
+                        <div class="text_plus rin flexbox">
+                            <p>Jewelry</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!--four block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/perfume.svg" alt="perfume">
+                        <div class="text_plus rin flexbox">
+                            <p>Perfume</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!--fifth block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/cosmetics.svg" alt="Cosmetic">
+                        <div class="text_plus rin flexbox">
+                            <p>Cosmetic</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!-- Sixth block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/glasses.svg" alt="goggle">
+                        <div class="text_plus rin flexbox">
+                            <p>Glasses</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!-- Seventh block-->
+                    <div class="left_aside_svg rin flexbox">
+                        <img src="/icons/bag.svg" alt="bag">
+                        <div class="text_plus rin flexbox">
+                            <p>Bag</p>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+                    <!-- ONE BLOCK STARTS-->
+                </div>
+
+                <!-- ======= after sidebar , now this a 2nd side bar below the first side bar -->
+                <div class="long_container rin">
+                    <p class="rin" style="font-size: 1.5em; margin-top: 50px;">BEST SELLER</p>
+                    <!--  first product block -->
+                    <div class="one_block flexbox">
+                        <div class="product_image rin">
+                            <img src="/icons/clothes-1.jpg" alt="pink-T-shirt">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Baby Fabric Shoes</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:rgba(52, 51, 51, 0.208);"></i>
+                            <div>
+                                <span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Second product block -->
+                    <div class="one_block flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Men's Hoodies T-Shirt</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:rgba(52, 51, 51, 0.208);"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Third product block -->
+                    <div class="one_block flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Men's Hoodies T-Shirt</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:rgba(52, 51, 51, 0.208);"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Fourth product block -->
+                    <div class="one_block flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/4.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Woolen Hat For Men</p>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:rgba(52, 51, 51, 0.208);"></i>
+                            <div><span class="amount"
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); ">$5.00</span><span
+                                    style=" font-weight: bold; color:rgb(80, 80, 80); margin-left: 3%;"> $4.00</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- product list ends here. -->
+                </div>
+            </aside>
+            <!-- ==================we covered 2 side bar and now after this we are going to create aside bar / main (second page)===========================  -->
+            <!-- ==================lets create a second page and aside bar. ==================== -->
+            <main class="main_center flexbox  rin">
+                <!-- ======= 1st container who contain so many product and his rating and prize also  -->
+                <div class="long_container_main rin">
+                    <p class="rin" style="font-size: 1.5em; margin: 10% 0%; border-bottom:1px solid grey ;">New Arrivals
+                    </p>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="icons/clothes-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Relaxed Short Full Sleep....</p>
+                            <p class="grey">Clothes</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="images/clothes-2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Girls Pnk Embro Design...</p>
+                            <p class="grey">Clothes</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="images/clothes-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Black Floral Wrap Midi..</p>
+                            <p class="grey">Clothes</p>
+                            <p class="amount">$76.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main rin flexbox">
+                        <div class="product_image rin">
+                            <img src="images/shirt-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Pure Garment Dyed C..</p>
+                            <p class="grey">Mens Fashion</p>
+                            <p class="amount">$68.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                </div>
+                <!-- ======= 2nd container who contain so many product and his rating and prize also  -->
+                <div class="long_container_main rin">
+                    <p class="rin" style="font-size: 1.5em; margin: 10% 0%; border-bottom:1px solid grey ;">Trending</p>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/sports-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Running & Trekking Sh...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$49.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/sports-2.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Trekking & Running Sh...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/party-wear-1.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Womens Party Wear S...</p>
+                            <p class="grey">Party Wear</p>
+                            <p class="amount">$45.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main rin flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/sports-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Sport Claw Women's...</p>
+                            <p class="grey">Sports</p>
+                            <p class="amount">$54.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                </div>
+                <!-- ======= 3rd container who contain so many product and his rating and prize also -->
+                <div class="long_container_main rin">
+                    <p class="rin" style="font-size: 1.5em; margin: 10% 0%; border-bottom:1px solid grey ;">Top Rated
+                    </p>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/watch-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Pocket Watch Leather...</p>
+                            <p class="grey">Watches</p>
+                            <p class="amount">$50.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150); margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/jewellery-3.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Silver Deer Heart Neck..</p>
+                            <p class="grey">Jewelry</p>
+                            <p class="amount">$84.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/perfume.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Titan 100 MI Womens..</p>
+                            <p class="grey">Perfume</p>
+                            <p class="amount">$42.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                    <!-- ONE PRODUCT DETAILS -->
+                    <div class="one_block_main rin flexbox">
+                        <div class="product_image rin">
+                            <img src="/images/belt.jpg" alt="clothes-1">
+                        </div>
+                        <div class="alltext">
+                            <p class="top">Men's Leather Reversi..</p>
+                            <p class="grey">Belt</p>
+                            <p class="amount">$24.00 <span
+                                    style="text-decoration-line: line-through; color:rgb(150, 150, 150) ;margin-left: 3%;">
+                                    $12.00</span></p>
+                        </div>
+                    </div>
+                    <!-- ONE PRODUCT DETAILS -->
+                </div>
+                <!-- ============ Third page in aside bar : in this page we see about one product in details like rating , prize and current conditions ======================== -->
+                <section class="sectionbigpic rin flex">
+                    <h1 style="margin-bottom: 2%; border-bottom:1px solid grey; ">Deal of the Day</h1>
+                    <div class="shree flexbox ">
+                        <div class="shampoo rin">
+                            <img src="/images/shampoo.jpg" alt="">
+                        </div>
+                        <div class="all_content">
+                            <h5>SHAMPOO, CONDITIONER & FACEWASH PACKS</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, doloribus Lorem
+                                ipsum dolo amet.</p>
+                            <strong style="color: rgb(255, 113, 135); font-size: 2em;">$150.00</strong> <span
+                                style="color: rgb(180,180,180); font-size: 2em; text-decoration-line: line-through; margin-left: 5%;">$200.00</span>
+                            <br>
+                            <button>ADD TO CART</button>
+                            <div class="flexbox justifysb " id="targetspan">
+                                <span>ALREADY SOLD :<strong>20</strong></span>
+                                <span>AVAILABLE :<strong>40</strong> </span>
+                            </div>
+                            <div class="progress_bar">
+                                <div class="pink"></div>
+                            </div>
+                            <p>HURRY UP! OFFER ENDS IN:</p>
+                            <div class="small_square_div flexbo rin">
+                                <div class="small_square"><strong>360</strong><br>Days</div>
+                                <div class="small_square"><strong>24</strong><br>Hours</div>
+                                <div class="small_square"><strong>59</strong><br>Min</div>
+                                <div class="small_square"><strong>00</strong><br>Sec</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ============ONE BIG PICTURE========================  -->
+                <!-- ===========four page in aside bar: in this page we see , so many products and his rating =================== -->
+                <section class="section rin">
+                    <h1>New Products</h1>
+                    <div class="block_wrapper flexbox">
+                        <!-- 1st/first block product -->
+                        <div class="items">
+                            <img src="/images/jacket-3.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 1st/second block product -->
+                        <div class="items rin">
+                            <img src="/images/shirt-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 1st/third block product -->
+                        <div class="items rin">
+                            <img src="/images/jacket-5.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 1st/fourth block product -->
+                        <div class="items rin">
+                            <img src="/images/clothes-3.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2nd/fist block product -->
+                        <div class="items rin">
+                            <img src="/images/shoe-2.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2nd/second block product -->
+                        <div class="items rin">
+                            <img src="/images/watch-3.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2nd/third block product -->
+                        <div class="items rin">
+                            <img src="/images/watch-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2nd/fourth block product -->
+                        <div class="items rin">
+                            <img src="/images/party-wear-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3rd/first block product -->
+                        <div class="items rin">
+                            <img src="/images/jacket-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3rd/second block product -->
+                        <div class="items shoes rin">
+                            <img class="lolo" src="/images/sports-2.jpg" alt="">
+
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3rd/third block product -->
+                        <div class="items rin">
+                            <img src="/images/shoe-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3rd/fourth block product -->
+                        <div class="items rin">
+                            <img src="/images/shorts-1.jpg" alt="">
+                            <div class="text_all rin">
+                                <p class="name">JACKETS</p>
+                                <p class="grey">Mens Winter Leathers Jackets</p>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star" aria-hidden="true" style="font-size:15px; color:orange;"></i>
+                                <i class="fa fa-star-o" style="font-size:15px;color:orange"></i>
+                                <p><strong>$48.00</strong><span
+                                        style="color:grey; text-decoration-line:line-through; font-size: 15px; margin-left: 18px;">$75.00</span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- BLOCK ONE ENDS HERE -->
+                    </div>
+                </section>
+            </main>
+        </div>
+        <!-- ===========fifth page: before start in this page we see left side bar and aside bar and right bar================== -->
+        <!-- left side bar -->
+        <section class="threepic wrap flexbox ">
+            <div class="mainleft ">
+                <h1>Testimonial</h1>
+                <div class="leftmostpart">
+                    <img src="/images/testimonial-1.jpg" alt="">
+                    <p class="nameuser">ALAN DOE</p>
+                    <p class="work">CEO & Founder Invasion</p>
+                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size:40px;"></i>
+                    <p>Lorem ipsum dolor sit update his sunt mollitia soluta Lorem ipsum dolor sit amet. rem quos
+                        tenetur ducimus.</p>
+                </div>
+            </div>
+            <!-- aside bar -->
+            <div class="midpic flexbox">
+                <div class="textforpic">
+                    <p class="discount">20% DISCOUNT</p>
+                    <h1>Summer Collection</h1>
+                    <p class="big">STARTING @ $10</p>
+                    <a href="#">SHOP NOW</a>
+                </div>
+            </div>
+
+            <!-- right side bar -->
+            <div class="mainleft ">
+                <h1>Our Services</h1>
+                <div class="rightmostpart wra">
+                    <div class="blocker flexbox ">
+                        <!-- <i class="fa fa-ship rin"  style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i> -->
+                        <div class="smallwrapper">
+                            <p class="toptext ">Worldwide Delivery</p>
+                            <p class="bottomtext ">For Order Over $100</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox ">
+                        <!-- <i class="fa fa-ship rin" aria-hidden="true" style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i> -->
+                        <div class="smallwrapper">
+                            <p class="toptext ">Next Day Delivery</p>
+                            <p class="bottomtext ">UK Orders Only</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship " aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext ">Best Online Support</p>
+                            <p class="bottomtext ">Hours:8AM - 11PM</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship " aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext ">Return Policy</p>
+                            <p class="bottomtext ">Easy & Free Return</p>
+                        </div>
+                    </div>
+
+                    <div class="blocker flexbox">
+                        <i class="fa fa-ship " aria-hidden="true"
+                            style="font-size:2.2em; color:lightpink; margin: 0% 5%;"></i>
+                        <div class="smallwrapper">
+                            <p class="toptext ">30% Money Back</p>
+                            <p class="bottomtext">For Order Over $100</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- ============= some time of card set in downside ================== -->
+        <div class="main_container flexbox">
+            <!-- first card -->
+            <div class="one_card ">
+                <img src="/images/blog-1.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <!-- second card -->
+            <div class="one_card card1 ">
+                <img src="/images/blog-2.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <!-- third card -->
+            <div class="one_card card2 rin">
+                <img src="/images/blog-3.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+            <!-- fourth card -->
+            <div class="one_card card3 rin">
+                <img src="/images/blog-4.jpg" alt="">
+                <div class="textdetails">
+                    <p style="color: lightpink;">Fashion</p>
+                    <p class="detailsd">Clothes Retail KPIs 2021 guide for Clothes Executives.</p>
+                    <p class="bottomtext" style="color: grey;">By Mr Admin / Apr 06,2022</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- =============first footer=============================== -->
+        <footer>
+            <section class="brand" style="background-color: black;">
+                <p style="color: lightpink; font-weight:bold;">BRAND DIRECTORY</p>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+                <ul class="lista">
+                    <li>FASHION :</li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                    <li><a href="#">T-Shirt |</a></li>
+                </ul>
+            </section>
+            <!-- Second footer -->
+            <section class="verticalli flexbox wrap rin">
+                <!-- ONE VERTICAL LIST -->
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <!-- ONE VERTICAL LIST -->
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <!-- ONE VERTICAL LIST -->
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <!-- ONE VERTICAL LIST -->
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+                <!-- ONE VERTICAL LIST -->
+                <div class="mainhead">
+                    <p>POPULAR CATEGORY</p>
+                    <ul>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="#">Electronic</a></li>
+                        <li><a href="#">Cosmetic</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Watches</a></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- last footer -->
+            <section class="extlast flexbo">
+                <img src="/images/payment.png" alt="payment">
+                <p>Copyright &#169; E-Commerce All Right Reserved</p>
+            </section>
+        </footer>
+        <!-- =============FOOTER PART STARTS HERE=============================== -->
+        <div class="navbarbottom">
+            <i class="fa fa-bars" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-shopping-bag" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-home" aria-hidden="true" style="font-size: 1.5em; color: rgb(150, 150, 150);"></i>
+            <i class="fa fa-heart" style="font-size: 1.5em; color: rgb(150, 150, 150)"></i>
+            <i class="fa fa-plus-square" aria-hidden="true"></i>
+        </div>
+</body>
+
+</html>

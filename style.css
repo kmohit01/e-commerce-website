@@ -1,0 +1,1021 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+  }
+  :root {
+    --light_pink: rgb(255, 113, 135);
+    --very_light_grey: rgb(220, 220, 220);
+    --light_grey: rgb(100, 100, 100);
+    --blue_color: blue
+    --justify_space_between: space-between;
+    --justify_space_evenly: space-evenly;
+    --background_black: black;
+  }
+  
+  /* GENERAL CSS FOR ALL START HERE */
+  
+  .ring {
+    border: 1px solid red;
+  }
+  
+  /* every flex-box present on this site */
+  .flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* basically rapper present on three place-: around search bar, after first page and left-side-bar also right-side-bar  */
+  .wrap {
+    flex-wrap: wrap;
+  }
+  
+  .justifyse {
+    background-color: red;
+    justify-content: space-evenly;
+  }
+
+  /* this thing present in 3rd page on shampoo aad */
+  .justifysb {
+    justify-content: space-between;
+  }
+  
+  /* cover first nav_bar and second nav_bar */
+  
+  .Big_Box {
+    border-bottom: 1px solid grey;
+
+  }
+  
+  /* fist nav_bar around */
+  .Pahla_box {
+    justify-content: var(--justify_space_between);
+    /* border-bottom: 1px solid rgb(54, 91, 161); */
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .Pahla_box h5 {
+    /* background-color: violet; */
+    color: rgb(150, 150, 150);
+
+  }
+  
+  /* social media font in first nav_bar */
+  .social_media_icon {
+    margin-left: 1%;
+  }
+  
+  /* social media font around border */
+  .social_media_icon .fa {
+    margin: 5px 8px;
+    padding: 4px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+  }
+  
+  /* inside first nav_bar right side part */
+  .select_option select {
+    font-size: 0.7em;
+    border: none;
+    color: rgb(150, 150, 150);
+  }
+  
+  
+  /* ========== second nav_bar  ======== */
+  
+  /* cover second nav_bar */
+  .second_bar {
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 1%;
+  }
+  
+  /* left side part of in second nav_bar */
+  .second_bar p {
+    color: var(--light_pink);
+  }
+  
+  /* in second nav_bar , this is search sign on search box.*/
+  .search_box {
+    justify-content: space-between;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    width: 55%;
+  }
+  
+  /* search box on second nav_bar  */
+  .search_box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+  }
+  
+  /* inside search bar logo/symbol */
+  .search_box .fa {
+    margin-right: 2%;
+    margin: 0px 10px;
+  }
+  
+  /* right side items in second nav_bar */
+  .shopping_icon .fa {
+    margin: 0px 10px;
+  }
+ 
+  /* ============= third nav_bar ==================== */
+
+  /* cover area of third nav_bar */
+  .nav_bar {
+    max-width: 1400px;
+    margin: 0px auto;
+  }
+  
+  /* outer area of link */
+  .nav_bar ul li {
+    display: inline-block;
+    margin: 15px 20px;
+  }
+  
+  /* inside link div */
+  .nav_bar ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* ==========BANNER PORTION STARTS HERE=============== */
+  .main_width {
+    max-width: 1400px;
+    margin: 0px auto;
+  }
+  
+  /* first page banner */
+  .fast_banner {
+    background-image: url(/images/banner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.3% 0%;
+    border: 1px solid white;
+    margin-bottom: 2%;
+  }
+  
+  /* inside first page, left side/text part */
+  .banner_text {
+    width: 60%;
+    padding: 4% 8%;
+  }
+
+  /* inside left side part , this is rate on first page */
+  .starting {
+    font-size: 2rem;
+  }
+  
+  /* inside left side part, it covered starting text part and price part also */
+  .banner_text p {
+    font-size: 2.5rem;
+    color: var(--light_pink);
+  }
+  
+  /* in left side , dark text part on first page. */
+  .banner_text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  
+  /* twenty rupees text */
+  .banner_text strong {
+    font-size: 4rem;
+  }
+  
+  /* in first page , this is part of bottom button for shopping */
+  .banner_text button {
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: var(--light_pink);
+    color: white;
+    padding: 2% 3%;
+    margin: 2% 0%;
+    cursor: pointer;
+  }
+  
+  /* FIRST FOUR BLOCK OF ITEMS STARTS HERE= */
+  
+  .main_widtha {
+    max-width: 1400px;
+    margin: 0px auto;
+  }
+  
+  /* after first page, we have 4 box, so this it will cover its div size */
+  .one_small_block {
+    width: 290px;
+    justify-content: start;
+    align-items: stretch;
+    border-radius: 3px;
+    border: 1px solid var(--very_light_grey);
+    margin: 1% 1.4%;
+  }
+  
+  /* 4 div after first page,it shows like hover effects */
+  .one_small_block:hover{
+    box-shadow: 0px 0px 4px lightgreen;
+  }
+  
+  /* inside , div it will cover , icons size after first page */
+  .svg_icon img {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(210, 210, 210);
+  }
+  
+  /* in 2 div , after leave icon, it covered text area  */
+  .top_text {
+    margin: 8px;
+    padding: 7px;
+    justify-content: space-around;
+    height: 100%;
+    width: 65%;
+    display: inline-table;
+  }
+  
+    /* inside div, it will take "show all button" test */
+  .top_text a {
+    text-decoration: none;
+    color: rgb(255, 113, 135);
+    font-size: 0.9em;
+  }
+  
+  /* it will cover dark side text and also number in four div. */
+  .seprate {
+    justify-content: space-between;
+  }
+  
+  /* it cover outside od dark text and num. */
+  .seprate p {
+    font-size: 0.9em;
+    font-weight: bold;
+    gap: 10%;
+  }
+ 
+  /* four div's CSS ends here */
+  
+  /* it is a side bar of second page */
+  aside {
+    margin-left: 1%;
+    width: 32.5%;
+  
+  }
+  
+  .asider {
+    width: 32%;
+    position: sticky;
+    top: 0px;
+    height: min-content;
+  }
+  
+  /* second page cover */
+  .main_wrapper {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  }
+  
+  /* inside side bar it will show in all div */
+  .left_aside_svg {
+    justify-content: start;
+    margin: 5% 0%;
+    gap: 5%;
+  }
+  
+  /* it will cover ,first side bar fonts */
+  .left_aside_svg img {
+    width: 35px;
+    height: 35px;
+    margin-left: 6%;
+  }
+  
+  /* after font, it will cover name part and plus sign area on side par */
+  .text_plus {
+    width: 80%;
+    margin-left: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* it will cover both side bar ups and down side. */
+  .long_container {
+    width: 90%;
+    border-radius: 3px;
+    margin-left: 6%;
+  }
+  
+  /* full area of div in side bar */
+  .one_block {
+    width: 100%;
+    justify-content: start;
+    border-radius: 3px;
+    border: 1px solid var(--very_light_grey);
+    margin: 6% 0%;
+    
+  }
+  
+  /* it is hover part on side bar */
+  .one_block:hover{
+    box-shadow: 0px 0px 4px greenyellow;
+  }
+  
+  .long_box_heading {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  /* it is font size of aside bar and  page 2*/
+  .product_image {
+    margin: 0px 5px;
+  }
+  
+  /* outer part of font size in aside bar on page seond */
+  .product_image img {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+  }
+  
+   
+  /* it cover dark text area of aside bar and where it was present */
+  .alltext .top {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* after dark font size it is space after text part/ name of product */
+  .alltext .grey {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+  }
+  
+  /* it is a bottom down part in aside bar (red color and gray color) money */
+  .alltext .amount {
+    color: var(--light_pink);
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+
+  /* ================ it will cover aside bar div's of products ================ */
+  .long_container_main {
+    width: 29%;
+    border-radius: 3px;
+  }
+  
+  /* inside, aside bar it is div size */
+  .one_block_main {
+    width: 100%;
+    justify-content: start;
+    border-radius: 3px;
+    border: 1px solid var(--very_light_grey);
+    margin: 5% 0%;
+  }
+  
+  .one_block_main:hover{
+    box-shadow: 0px 0px 4px greenyellow;
+  }
+  
+  /* it is main aside bar (who cover second , third and four page) */
+  .main_center {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 100%;
+  }
+  /* <!-- ============ONE BIG PICTURE======================== --> */
+  .mid_box_bpic {
+    border: 1px solid var(--very_light_grey);
+    border-radius: 5px;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+  }
+
+  /* third page in aside bar cover image */
+  .shampoo {
+    width: 100%;
+    padding: 2%;
+  }
+
+  /* total cover third page. */
+  .sectionbigpic {
+    margin: 2.2%;
+    padding-top: 3%;
+  }
+
+
+  .shampoo img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .progress_bar {
+    margin: 2% 0%;
+    width: 100%;
+    height: 10px;
+    background-color: var(--very_light_grey);
+    padding: 2px 2px;
+    border-radius: 5px;
+  }
+  
+  .pink {
+    height: 6px;
+    width: 55%;
+    background-color: var(--light_pink);
+    border-radius: 5px;
+  }
+  
+  /* last part of third page like time table  */
+  .small_square_div {
+    display: flex;
+  }
+  
+  .small_square {
+    text-align: center;
+    width: 14%;
+    border-radius: 5px;
+    background-color: var(--very_light_grey);
+    margin-top: 2%;
+    margin-right: 3%;
+  }
+  
+  .targetspan > span {
+    font-size: 1.5em;
+    color: var(--light_grey);
+  }
+
+  /* it will con=ver , right side part of  */
+  .all_content {
+    font-size: 1em;
+    padding: 3%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  
+  /* first heading of thirds page inside right side part */
+  .all_content h5 {
+    font-size: 1.15em;
+  }
+  
+  /* text area */
+  .all_content p {
+    color: var(--light_grey);
+  }
+  
+  .all_content button {
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--light_pink);
+    padding: 1.5% 5%;
+    margin: 2% 0%;
+  }
+  
+  /* <!-- ============ONE BIG PICTURE======================== --> */
+  /* ===============MEDIUM SIZE BLOCK STARTS HERE================ */
+  
+  .small_block_section {
+    margin: 2%;
+  }
+  
+  .small_block_section h1 {
+    width: 98%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    border-bottom: 1px solid grey;
+  }
+  
+  /* fourth page full page and, so many blocks for shopping and options */
+  .block_wrapper {
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* inside fourth page , this is a down introduction div */
+  .items {
+    width: 23%;
+    margin: 1%;
+    border-radius: 4px;
+    border: 1px solid var(--very_light_grey);
+  }
+  
+  /* it is hover effect on each div , present inside , fourth page */
+  .items:hover {
+    box-shadow: 0px 0px 5px gray;
+  }
+  
+  /* product images of each items */
+  .items img {
+    width: 100%;
+  }
+
+  /* inside item , this is a first heading , name of product */
+  .name {
+    color: var(--light_pink);
+  }
+
+  /* after heading this is a , second line  */
+  .grey {
+    color: var(--light_grey);
+    font-size: 12px;
+  }
+  
+  /* information div on fourth page */
+  .text_all {
+    margin: 4%;
+  }
+  
+  /* ==========fifth page :- who have contain 3 div, left div(side bar) , right div(side bar) and middle div(aside bar)=========== */
+  
+  .threepic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin: 3% 0%;
+  }
+
+  /* in fifth page it will cover , right side and also left side bar */
+  .mainleft {
+    width: 21.8%;
+    height: 100%;
+    box-shadow: 0px 0px 1px grey;
+    border-radius: 5px;
+  }
+
+  /* fifth page :- in the right and left div , it is first heading */
+  .mainleft h1 {
+    border-bottom: 1px solid grey;
+    padding-top: 5%;
+    padding-left: 4%;
+  }
+  
+  /* in fifth page it is a middle div , which contain a image and div. */
+  .midpic {
+    width: 46.5%;
+    border-radius: 8px;
+    background-image: url(images/cta-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /* it will cover a symbol present over the left div */
+  .fa-quote-left {
+    color: var(--light_pink);
+    margin: 8%;
+  }
+  
+  /* cover left side whole div. background */
+  .leftmostpart {
+    padding: 5%;
+    text-align: center;
+  }
+  
+  /* it takes image on left side div */
+  .leftmostpart img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 4% 0%;
+  }
+  
+  /* it contain right side bar (inside 5 block div) */
+  .blocker {
+    justify-content: flex-start;
+    margin: 4% 0%;
+  }
+  
+  /* it cover middle div (aside bar: who contain div upon div) */
+  .textforpic {
+    margin: 12%;
+    width: 50%;
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5px;
+  }
+  
+  /* it will take , left div(side bar: image after text ) */
+  .nameuser {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  /* after text it will take a small paragraph */
+  .work {
+    font-size: 1em;
+  }
+  
+  /* it will take, (aside bar:- inside div, dark text) */
+  .textforpic h1 {
+    font-size: 2em;
+  }
+  
+  /* it middle div(aside bar:- around 20% discount batch) */
+  .textforpic .discount {
+    color: white;
+    background-color: var(--background_black);
+    width: 54%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* on middle div(aside bar:- it takes the area around shop now's div) */
+  .textforpic a {
+    text-decoration: none;
+    color: var(--light_grey);
+    font-weight: bold;
+  }
+  
+  /* it takes , right side(side bar:- which takes 5 div) */
+  .smallwrapper{
+    margin: 0% 2%;
+  }
+  
+  /* on right div(right side bar:- around  dark text area) */
+  .toptext {
+    color: var(--light_grey);
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* on right div(right side bar:- after dark text) */
+  .bottomtext {
+    color: var(--light_grey);
+    font-size: 1em;
+  }
+  
+  /* right side div(it takes inside right side bar) */
+  .rightmostpart {
+    height: 100%;
+    padding: 5%;
+  }
+  
+  /* <!-- =============page 6th part 1st================== --> */
+  
+  /* it cover , 6th page /1st part all background */
+  .main_container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2% 0%;
+  }
+
+  /* it cover all cards present inside 1st part of page 6. */
+  .one_card {
+    width: 22%;
+    border-radius: 5px;
+  }
+
+    /* in 1st part it takes image of the present inside the card*/
+  .one_card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+    /* in 1st part of 6th page, it takes after the image part (text area) of the present inside the card*/
+  .textdetails {
+    margin: 2% 0%;
+  }
+  
+  /* in 1st part of 6th page, it takes (text area) after naming fashion part of the present inside the card*/
+  .detailsd {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  /* in 1st part of 6th page, it takes (text area) , last text part of the present inside the card*/
+  .bottomtext {
+    font-size: 1rem;
+    margin-bottom: 5%;
+  }
+  /* <!-- =============In the last we have three footer page so now we can start one by one================== --> */
+  /* fast footer with the brand name of "T-Shirt" */
+  
+  .brand/*directory*/ {
+    padding: 3% 9%;
+    border-bottom: 1px solid grey;
+    /* background-color: var(--background_black); */
+    color: white;
+    width: auto;
+  }
+  
+  /* it will cover first footer :- inside present block elements */
+  .lista {
+    /* background-color: red; */
+    margin: 1.5% 0%;
+  }
+
+  /* in this line , it will cover inside block elements, parts */
+  .lista li {
+    display: inline;
+    /* background-color: green; */
+    font-size: 0.8em;
+  }
+  
+  /* in this line it will cover "T-Shirt" text*/
+  .lista a {
+    text-decoration: none;
+    /* background-color: yellow; */
+    color: var(--light_grey);
+  }
+  
+  /* <!-- Second footer --> */
+  
+  /* it will cover second footer , div size */
+  .verticalli {
+    background-color: var(--background_black);
+    border-bottom: 1px solid grey;
+    align-items: stretch;
+  }
+
+  /* it contains div inside second footer, 5 div  */
+  .mainhead {
+    padding: 3% 2%;
+  }
+  
+  /* it contain , first heading inside div. starting */
+  .mainhead p {
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* it contain no. of item present inside , the second footer's inside div's (after heading part)*/
+  .mainhead a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--light_grey);
+  }
+  
+  /* <!-- Third footer --> */
+  
+  /* it will cover , last footer length and we can say third footer */
+  .extlast {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: var(--background_black);
+    padding: 2% 0%;
+    padding-bottom: 40px;
+    color: white;
+  }
+  
+  .connectwithus i {
+    margin-right: 15px;
+  }
+  
+  .navbarbottom {
+    text-align: center;
+    width: 80%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbarbottom i {
+    margin: 1% 6%;
+  }
+  
+  
+  /* ======================MEDIA QUERY====================== */
+  
+  @media screen and (max-width: 1800px) {
+    .navbarbottom {
+      display: none;
+    }
+  
+    .connectwithus {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    aside,
+    .social_media_icon,
+    .shopping_icon {
+      display: none;
+    }
+  
+    .long_container_main {
+      width: 42%;
+    }
+    .second_bar {
+      justify-content: space-around;
+    }
+    .top_most_strip {
+      margin: 0% 5%;
+    }
+  }
+  
+  /* ======================for tab(media_query)====================== */
+  @media screen and (max-width: 821px) {
+    .one_card {
+      width: 40%;
+
+    }
+    .banner {
+      width: 100vw;
+      background-size: contain;
+      margin: 2% 0%;
+    }
+  
+    .banner_text {
+      width: 50vw;
+    }
+    .starting {
+      font-size: 2em;
+    }
+  
+    .banner_text p {
+      font-size: 1.5rem;
+      color: var(--light_pink);
+    }
+  
+    .banner_text h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    .banner_text strong {
+      font-size: 1.5rem;
+    }
+  
+    .nav_bar {
+      display: none;
+    }
+  
+    .mainleft {
+      width: 100%;
+      margin: 2%;
+    }
+    .leftmostpart {
+      width: 50%;
+      margin: 0px auto;
+    }
+    .rightmostpart {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    .blocker {
+      width: 30%;
+      margin: 1%;
+    }
+    .midpic {
+      width: 100%;
+      height: 100%;
+      margin: 2%;
+      object-fit: contain;
+    }
+  
+    .items {
+      width: 45%;
+    }
+    .card2,
+    .card3 {
+      display: none;
+    }
+    .connectwithus {
+      display: block;
+    }
+  
+    .navbarbottom {
+      display: block;
+      position: fixed;
+      bottom: 0px;
+      width: 80%;
+      left: 10%;
+      z-index: 1;
+      border: 1px solid var(--light_grey);
+    }
+  }
+  
+  /* =========================For phone(media_query)======================  */
+  @media screen and (max-width: 600px) {
+  
+    .long_container_main {
+      width: auto;
+      margin: 0 auto;
+    }
+  
+    .writing {
+      margin: 5px auto;
+    }
+  
+    .search_box {
+      width: 90%;
+      margin-bottom: 3%;
+    }
+  
+    .banner {
+      margin: 2% 0%;
+    }
+  
+    .banner_text {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  
+    .banner_text p {
+      font-size: 0.8rem;
+      color: var(--light_pink);
+    }
+  
+    .banner_text h1 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .banner_text strong {
+      font-size: 1.5rem;
+    }
+  
+    .banner_text button {
+      border: none;
+      border-radius: 3px;
+      background-color: var(--light_pink);
+      color: white;
+      padding: 1% 1%;
+      margin: 2% 0%;
+      cursor: pointer;
+    }
+    .one_small_block {
+      flex: 1;
+      margin: 1% 5%;
+    }
+  
+    .mid_box_bpic {
+      width: 100%;
+      margin-bottom: 10%;
+      display: block;
+    }
+  
+    .mainleft {
+      margin: 4%;
+    }
+  
+    .select_option {
+      display: none;
+    }
+    .rightmostpart {
+      display: block;
+    }
+    .blocker {
+      width: 80%;
+      margin: auto;
+    }
+  
+    .midpic {
+      width: 100%;
+      height: 100%;
+      margin: 4%;
+      object-fit: contain;
+    }
+  
+    .leftmostpart {
+      width: 80%;
+  
+      margin: 0px auto;
+    }
+  
+    .one_card {
+      margin: 4%;
+      width: 95%;
+    }
+    .card1,
+    .card2,
+    .card3 {
+      display: none;
+    }
+    .mainhead {
+      width: 90%;
+      margin: 2% 0%;
+    }
+  
+    .navbarbottom {
+      width: 100%;
+      left: 0%;
+    }
+  }
